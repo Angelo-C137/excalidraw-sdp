@@ -134,6 +134,11 @@ const fillCircle = (
   }
 };
 
+const whatevs = (context: CanvasRenderingContext2D) => {
+  context.beginPath();
+ };
+ 
+
 const strokeGrid = (
   context: CanvasRenderingContext2D,
   gridSize: number,
