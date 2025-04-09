@@ -15,6 +15,7 @@ export interface Language {
 export const defaultLang = { code: "en", label: "English" };
 
 const allLanguages: Language[] = [
+  { code: "af-ZA", label: "Afrikaans"},
   { code: "ar-SA", label: "العربية", rtl: true },
   { code: "bg-BG", label: "Български" },
   { code: "ca-ES", label: "Català" },
